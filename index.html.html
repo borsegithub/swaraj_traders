@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="mr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Swaraj Traders | PoCRA Farmer Support</title>
+<meta name="description" content="Swaraj Traders, Aurala, Kannad — PoCRA / Nanaji Deshmukh Krishi Sanjivani Prakalp farmer support and agricultural solutions.">
+<style>
+:root{--green:#176b3a;--green2:#2f8f4e;--light:#f3f8f1;--gold:#e7a72d;--ink:#183126;--muted:#607068;--white:#fff}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Arial,"Noto Sans Devanagari",sans-serif;color:var(--ink);background:#fff;line-height:1.6}
+header{position:sticky;top:0;z-index:20;background:rgba(255,255,255,.96);backdrop-filter:blur(10px);border-bottom:1px solid #e6eee8}
+.nav{max-width:1120px;margin:auto;display:flex;align-items:center;justify-content:space-between;padding:13px 20px}
+.brand{display:flex;align-items:center;gap:10px;font-weight:800;color:var(--green);font-size:20px}.mark{width:42px;height:42px;border-radius:12px;background:var(--green);color:#fff;display:grid;place-items:center;font-size:22px}
+nav a{color:var(--ink);text-decoration:none;margin-left:18px;font-size:14px;font-weight:700}.lang{border:1px solid #cbdacf;background:#fff;border-radius:999px;padding:7px 12px;font-weight:700;cursor:pointer}
+.hero{background:linear-gradient(135deg,#edf7eb 0%,#fff9ea 100%);padding:72px 20px 62px}
+.wrap{max-width:1120px;margin:auto}.hero-grid{display:grid;grid-template-columns:1.2fr .8fr;gap:40px;align-items:center}
+.badge{display:inline-block;background:#dcefdc;color:var(--green);padding:6px 12px;border-radius:999px;font-weight:800;font-size:13px}
+h1{font-size:52px;line-height:1.08;margin:16px 0 14px;letter-spacing:-1.5px}h1 span{color:var(--green)}
+.lead{font-size:19px;color:var(--muted);max-width:690px}.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:25px}
+.btn{display:inline-block;text-decoration:none;padding:12px 18px;border-radius:10px;font-weight:800}.primary{background:var(--green);color:#fff}.secondary{background:#fff;color:var(--green);border:1px solid #b9cfbe}
+.hero-card{background:#fff;border:1px solid #dce8de;border-radius:22px;padding:28px;box-shadow:0 18px 45px rgba(24,49,38,.09)}.hero-card h3{margin-top:0;color:var(--green)}
+.stat{display:flex;gap:12px;align-items:flex-start;padding:13px 0;border-bottom:1px solid #edf1ee}.stat:last-child{border:0}.ico{font-size:24px}
+section{padding:68px 20px}.section-head{text-align:center;max-width:760px;margin:0 auto 35px}.section-head h2{font-size:34px;margin:0 0 8px}.section-head p{color:var(--muted)}
+.cards{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}.card{padding:24px;background:#fff;border:1px solid #e1e9e3;border-radius:16px;transition:.2s}.card:hover{transform:translateY(-3px);box-shadow:0 12px 30px rgba(24,49,38,.08)}.card .emoji{font-size:34px}.card h3{margin:10px 0 5px}.card p{color:var(--muted);font-size:14px}
+.pocra{background:var(--light)}.steps{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.step{background:#fff;border-radius:16px;padding:22px;border:1px solid #dfebe0}.num{width:34px;height:34px;border-radius:50%;background:var(--gold);display:grid;place-items:center;font-weight:900}
+.note{margin-top:24px;background:#fff9e9;border-left:4px solid var(--gold);padding:15px 18px;border-radius:8px;color:#604a1d}
+.form-wrap{display:grid;grid-template-columns:.8fr 1.2fr;gap:35px;align-items:start}.contactbox{background:var(--green);color:#fff;border-radius:20px;padding:30px}.contactbox a{color:#fff}.contactbox p{opacity:.9}
+form{display:grid;grid-template-columns:1fr 1fr;gap:14px}.full{grid-column:1/-1}label{font-size:13px;font-weight:800}input,select,textarea{width:100%;padding:12px;border:1px solid #cfdcd2;border-radius:9px;font:inherit;margin-top:5px}textarea{min-height:110px}.submit{border:0;cursor:pointer;font-size:15px}
+footer{background:#10271b;color:#dce8df;padding:30px 20px}.foot{max-width:1120px;margin:auto;display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap}.small{font-size:13px;color:#b8c9bd}
+.float{position:fixed;right:18px;bottom:18px;background:#1da851;color:#fff;padding:13px 17px;border-radius:999px;text-decoration:none;font-weight:900;box-shadow:0 8px 24px #0002;z-index:30}
+@media(max-width:850px){nav a{display:none}.hero-grid,.form-wrap{grid-template-columns:1fr}h1{font-size:40px}.cards{grid-template-columns:1fr 1fr}.steps{grid-template-columns:1fr}section{padding:50px 18px}}
+@media(max-width:500px){.cards{grid-template-columns:1fr}.hero{padding-top:48px}.hero-card{padding:20px}}
+</style>
+</head>
+<body>
+<header><div class="nav">
+<div class="brand"><div class="mark">🌾</div><div>Swaraj Traders</div></div>
+<nav><a href="#home">Home</a><a href="#pocra">PoCRA</a><a href="#services">Services</a><a href="#enquiry">Enquiry</a><a href="#contact">Contact</a></nav>
+<button class="lang" onclick="toggleLang()">मराठी / EN</button>
+</div></header>
+
+<main>
+<section class="hero" id="home"><div class="wrap hero-grid">
+<div>
+<span class="badge">POCRA / NDKSP • Farmer Support</span>
+<h1 id="heroTitle">शेतकऱ्यांसाठी <span>Swaraj Traders</span></h1>
+<p class="lead" id="heroLead">हवामान-अनुकूल शेतीसाठी कृषी उपाय, यंत्रसामग्री आणि PoCRA संबंधित मार्गदर्शन. Aurala, Kannad येथे शेतकऱ्यांसाठी विश्वासार्ह सेवा.</p>
+<div class="actions">
+<a class="btn primary" href="#enquiry">शेतकरी चौकशी / Enquire</a>
+<a class="btn secondary" href="https://wa.me/918007253282?text=Namaskar%20Swaraj%20Traders%2C%20PoCRA%20vishayi%20mahiti%20havi%20ahe." target="_blank">WhatsApp</a>
+</div>
+</div>
+<div class="hero-card">
+<h3>🌱 Swaraj Traders</h3>
+<div class="stat"><span class="ico">📍</span><div><b>Location</b><br>Aurala, Kannad, Chhatrapati Sambhajinagar</div></div>
+<div class="stat"><span class="ico">📞</span><div><b>Call / WhatsApp</b><br>Harshad Borse: <a href="tel:+918007253282">8007253282</a><br>Uddhav Borse: <a href="tel:+918888484093">8888484093</a></div></div>
+
+</div>
+</div></section>
+
+<section id="pocra" class="pocra"><div class="wrap">
+<div class="section-head"><h2>PoCRA / नानाजी देशमुख कृषि संजीवनी प्रकल्प 2.0</h2><p>महाराष्ट्र शासन व जागतिक बँकेच्या भागीदारीतील हवामान-अनुकूल शेतीसाठीचा प्रकल्प. निवडक गावांतील पात्र शेतकऱ्यांसाठी विविध शेती सुधारणा व आर्थिक सहाय्याच्या प्रक्रिया उपलब्ध आहेत.</p></div>
+<div class="steps">
+<div class="step"><div class="num">1</div><h3>चौकशी करा</h3><p>आपली शेती, गाव आणि आवश्यक काम/उपकरणाची माहिती द्या.</p></div>
+<div class="step"><div class="num">2</div><h3>पात्रता व कागदपत्रे तपासा</h3><p>गावाचा समावेश, संबंधित घटकाची पात्रता आणि आवश्यक कागदपत्रे तपासा. NDKSP 2.0 मध्ये शेतकरी लॉगिनसाठी आधार किंवा अ‍ॅग्रीस्टॅक शेतकरी आयडीचा वापर केला जातो.</p></div>
+<div class="step"><div class="num">3</div><h3>अधिकृत प्रक्रियेकडे जा</h3><p>अर्ज व मंजुरी संबंधित अधिकृत पोर्टल/कृषी विभागाच्या नियमांनुसारच होतात.</p></div>
+</div>
+<div class="note"><b>महत्त्वाचे:</b> PoCRA/NDKSP अंतर्गत लाभ गाव, पात्रता, घटक आणि शासनाच्या सध्याच्या नियमांवर अवलंबून असतात. Swaraj Traders कडून माहिती व सेवा-सहाय्य दिले जाऊ शकते; अनुदान मंजुरीची हमी दिली जात नाही.</div>
+<div class="cards" style="margin-top:24px">
+<div class="card"><div class="emoji">🌦️</div><h3>हवामान-अनुकूल शेती</h3><p>पाणी व नैसर्गिक संसाधनांचा कार्यक्षम वापर, मृदा आरोग्य आणि हवामानातील बदलांना तोंड देणाऱ्या शेती पद्धतींना प्रोत्साहन.</p></div>
+<div class="card"><div class="emoji">💧</div><h3>पाणी व्यवस्थापन</h3><p>ठिबक/तुषार सिंचन, शेततळे आणि पाण्याची उत्पादकता वाढविणाऱ्या उपायांशी संबंधित प्रकल्प घटक.</p></div>
+<div class="card"><div class="emoji">🚜</div><h3>उत्पादनक्षमता व यांत्रिकीकरण</h3><p>संसाधन-कार्यक्षम शेती, कृषी यंत्रसामग्री आणि उत्पादकता वाढविणाऱ्या उपायांना प्रोत्साहन.</p></div>
+<div class="card"><div class="emoji">🌱</div><h3>संरक्षित व विविधीकृत शेती</h3><p>शेडनेट/संरक्षित शेती, बागायती व उत्पन्नातील लवचिकता वाढविणाऱ्या उपक्रमांशी संबंधित सहाय्य.</p></div>
+</div>
+<div class="note"><b>PoCRA 2.0 ची अधिकृत माहिती:</b> नानाजी देशमुख कृषि संजीवनी प्रकल्प 2.0 हा महाराष्ट्र शासन व जागतिक बँकेच्या भागीदारीतील प्रकल्प आहे. अधिकृत पोर्टलनुसार प्रकल्प 21 जिल्ह्यांतील निवडक गावांमध्ये राबविला जातो. शेतकरी NDKSP DBT पोर्टलवर नोंदणी/अर्ज करू शकतात; प्रक्रियेत आधार-संलग्न पेमेंट, जिओटॅगिंग आणि कामांची स्थिती ट्रॅक करण्याची सुविधा आहे.</div>
+<div class="actions" style="justify-content:center;margin-top:22px">
+<a class="btn primary" href="https://mahapocra.gov.in/mr" target="_blank">अधिकृत PoCRA वेबसाइट</a>
+<a class="btn secondary" href="https://dbt-ndksp-official.mahapocra.gov.in/" target="_blank">NDKSP DBT पोर्टल</a>
+</div>
+</div></section>
+
+<section id="services"><div class="wrap"><div class="section-head"><h2>आमच्या सेवा / Our Services</h2><p>शेतकऱ्यांच्या गरजेनुसार कृषी पायाभूत सुविधा आणि उपाय.</p></div>
+<div class="cards">
+<div class="card"><div class="emoji">🚜</div><h3>Farm Machinery<br><small>शेती यंत्रसामग्री</small></h3><p>PoCRA 2.0 मध्ये संसाधन-कार्यक्षम व हवामान-अनुकूल शेतीला प्रोत्साहन दिले जाते. शेतीतील कामे अधिक कार्यक्षम करण्यासाठी योग्य यंत्रसामग्री व तंत्रज्ञानाबाबत माहिती व मार्गदर्शन मिळवता येते. संबंधित यंत्र/घटकासाठी पात्रता व मंजुरी शासनाच्या नियमांनुसार तपासली जाते.</p></div>
+<div class="card"><div class="emoji">💧</div><h3>Drip Irrigation<br><small>ठिबक सिंचन</small></h3><p>PoCRA च्या हवामान-अनुकूल शेतीच्या उद्दिष्टांत पाण्याचा कार्यक्षम वापर महत्त्वाचा आहे. ठिबक व इतर सूक्ष्म सिंचन उपायांमुळे पाणी उत्पादकता वाढविण्यास मदत होते. घटकाची उपलब्धता व पात्रता संबंधित अधिकृत नियमांनुसार ठरते.</p></div>
+<div class="card"><div class="emoji">🏞️</div><h3>Farm Pond<br><small>शेततळे</small></h3><p>पावसाचे पाणी साठवणे व शेतीसाठी उपलब्ध पाण्याचे नियोजन हे हवामान-अनुकूल शेतीतील महत्त्वाचे उपाय आहेत. शेततळे किंवा संबंधित जलसंधारण घटकाबाबत पात्रता, तांत्रिक निकष आणि मंजुरी प्रक्रिया लागू नियमांनुसार होते.</p></div>
+<div class="card"><div class="emoji">🌱</div><h3>Shade Net<br><small>शेडनेट / संरक्षित शेती</small></h3><p>PoCRA च्या प्रकल्प अंमलबजावणी आराखड्यात संरक्षित लागवड व हवामान-लवचिक तंत्रज्ञानाला महत्त्व दिले आहे. शेडनेट/संरक्षित शेतीसाठी आवश्यक तंत्रज्ञान, रचना व घटकांबाबत मार्गदर्शन मिळवता येते; लाभाची पात्रता घटकनिहाय नियमांवर अवलंबून असते.</p></div>
+</div>
+<div class="note" style="margin-top:24px"><b>सरकारी माहितीनुसार:</b> PoCRA 2.0 / NDKSP चा उद्देश लघु शेतकऱ्यांची हवामान-लवचिकता व उत्पन्नक्षमता वाढवणे आहे. अधिकृत प्रकल्प कागदपत्रांमध्ये ठिबक/तुषार सिंचन, शेततळे, संरक्षित लागवड आणि संसाधन-कार्यक्षम शेतीसारख्या उपायांचा उल्लेख आहे. कोणत्याही विशिष्ट घटकासाठी लाभ/अनुदान मिळेलच असे नाही; अंतिम पात्रता व मंजुरी अधिकृत NDKSP प्रक्रियेनुसार होते.</div>
+</div></section>
+
+<section id="enquiry" class="pocra"><div class="wrap form-wrap">
+<div><div class="section-head" style="text-align:left;margin:0"><h2>शेतकरी चौकशी</h2><p>तुमची माहिती पाठवा. आम्ही तुमच्याशी संपर्क करू.</p></div>
+<div class="contactbox"><h3>थेट संपर्क</h3><p>📞 Harshad Borse: <a href="tel:+918007253282">8007253282</a></p><p>📞 Uddhav Borse: <a href="tel:+918888484093">8888484093</a></p><p>💬 WhatsApp वर चौकशी करा</p><p>📍 Aurala, Kannad, Chhatrapati Sambhajinagar</p></div></div>
+<form onsubmit="sendWhatsApp(event)">
+<div><label>शेतकऱ्याचे नाव / Name</label><input id="name" required></div>
+<div><label>मोबाईल / Mobile</label><input id="phone" required></div>
+<div><label>गाव / Village</label><input id="village" required></div>
+<div><label>तालुका / Taluka</label><input id="taluka" value="Kannad"></div>
+<div class="full"><label>आपल्याला कोणती सेवा हवी? / Required service</label><select id="service"><option>Farm Machinery / शेती यंत्रसामग्री</option><option>Drip Irrigation / ठिबक सिंचन</option><option>Farm Pond / शेततळे</option><option>Shade Net / शेडनेट</option><option>PoCRA guidance / PoCRA मार्गदर्शन</option></select></div>
+<div class="full"><label>अधिक माहिती / Message</label><textarea id="message" placeholder="उदा. पिकाचे नाव, क्षेत्रफळ, आवश्यक काम..."></textarea></div>
+<button class="btn primary submit full">WhatsApp वर पाठवा</button>
+</form>
+</div></section>
+
+<section id="contact"><div class="wrap"><div class="section-head"><h2>संपर्क / Contact</h2><p>शेतकऱ्यांसाठी थेट संपर्क सुविधा.</p></div>
+<div class="cards">
+<div class="card"><div class="emoji">📞</div><h3>Call</h3><p>Harshad Borse<br><a href="tel:+918007253282">8007253282</a></p><p>Uddhav Borse<br><a href="tel:+918888484093">8888484093</a></p></div>
+<div class="card"><div class="emoji">💬</div><h3>WhatsApp</h3><p><a href="https://wa.me/918007253282" target="_blank">Chat with Swaraj Traders</a></p></div>
+
+<div class="card"><div class="emoji">📍</div><h3>Address</h3><p>Aurala, Kannad, Chhatrapati Sambhajinagar</p></div>
+</div></div></section>
+</main>
+<a class="float" href="https://wa.me/918007253282?text=Namaskar%20Swaraj%20Traders%2C%20mala%20PoCRA%20vishayi%20mahiti%20havi%20ahe." target="_blank">💬 WhatsApp</a>
+<footer><div class="foot"><div><b>Swaraj Traders</b><div class="small">PoCRA Farmer Support & Agricultural Solutions</div></div><div class="small">Aurala, Kannad, Chhatrapati Sambhajinagar • © 2026</div></div></footer>
+
+<script>
+let mr=true;
+function toggleLang(){
+ mr=!mr;
+ document.getElementById('heroTitle').innerHTML=mr?'शेतकऱ्यांसाठी <span>Swaraj Traders</span>':'<span>Swaraj Traders</span> for Farmers';
+ document.getElementById('heroLead').textContent=mr?'हवामान-अनुकूल शेतीसाठी कृषी उपाय, यंत्रसामग्री आणि PoCRA संबंधित मार्गदर्शन. Aurala, Kannad येथे शेतकऱ्यांसाठी विश्वासार्ह सेवा.':'Agricultural solutions, machinery and PoCRA-related guidance for climate-resilient farming. Serving farmers in Aurala, Kannad.';
+}
+function sendWhatsApp(e){
+ e.preventDefault();
+ const msg=`Namaskar Swaraj Traders,\n\nName: ${name.value}\nMobile: ${phone.value}\nVillage: ${village.value}\nTaluka: ${taluka.value}\nService: ${service.value}\nMessage: ${message.value}`;
+ window.open('https://wa.me/918007253282?text='+encodeURIComponent(msg),'_blank');
+}
+</script>
+</body></html>
